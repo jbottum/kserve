@@ -15,5 +15,5 @@ RUN pip install huggingface_hub
 COPY hub-example.py .
 
 # Set the command to run your script
-CMD ["python", "hub8.py"]
+CMD ["python", "hub-example.py"]
 
