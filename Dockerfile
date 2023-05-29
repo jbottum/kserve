@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install huggingface_hub
 
 # Copy your script into the container
-COPY hub8.py .
+COPY hub-example.py .
 
 # Set the command to run your script
 CMD ["python", "hub8.py"]
